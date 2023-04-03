@@ -1,0 +1,22 @@
+.sign-section {
+  background-image: url(../images/form-image.jpg);
+}
+#compos-modal {
+  background-color: rgb(0 0 0 / 30%);
+  display: flex;
+  align-items: flex-end;
+}
+#compos-modal .modal-dialog {
+  margin-right: 10px;
+  width: 100%;
+}
+#compos-modal textarea {
+  min-height: 180px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.make-unread svg.make-read,
+.make-read svg.make-unread {
+  display: none;
+}
